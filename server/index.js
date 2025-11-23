@@ -11,5 +11,10 @@ app.use('/extract', extractRoutes);
 
 app.get('/ping', (req, res) => res.json({ ok: true }));
 
+// For Deployment Testing
+app.get("/", (req, res) => {
+  res.send("Backend working successfully on Render!");
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
