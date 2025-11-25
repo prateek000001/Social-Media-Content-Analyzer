@@ -1,12 +1,13 @@
 # Social Media Content Analyzer (Dark Theme Version)
 
-This repository contains a concise implementation for extracting text from PDFs and images.
-It is designed to look and feel like your own personal project: plain comments, simple names,
-and a developer-friendly dark UI powered by Tailwind CSS.
+-This project is a lightweight tool that allows users to extract text from PDF documents and images.
+It features a clean, dark-themed interface and focuses on simplicity, clarity, and a smooth developer experience.
+
+-The interface and content are intentionally minimal and easy to understand so that the project reflects a clean, personal development style.
 
 Structure:
-- server/ : Node + Express backend with pdf-parse and Tesseract.js OCR
-- client/ : Vite + React + Tailwind frontend (dark theme)
+server/  → Node.js + Express backend using pdf-parse and Tesseract.js for OCR
+client/  → React + Vite + Tailwind CSS frontend with a modern dark UI
 
 Quick run:
 1. Start server
@@ -20,5 +21,6 @@ Quick run:
    npm run dev
 
 Submission notes:
-- Include the GitHub link and the live URL (if deployed).
-- The UI and wording are intentionally straightforward to make the project feel authored by you.
+- GitHub Repository: https://github.com/prateek000001/Social-Media-Content-Analyzer
+- Live Demo: https://social-media-content-analyzer-1.netlify.app/
+
