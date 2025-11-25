@@ -39,7 +39,7 @@ export default function Home() {
     <div className="min-h-screen bg-bg text-gray-200 flex items-center justify-center p-6">
       <div className="w-full max-w-4xl">
         <Header />
-        <main className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <main className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
           <section className="md:col-span-1">
             <FileUpload onFileSelected={handleFile} />
             <StatusPanel status={status} message={message} fileName={fileName} />
